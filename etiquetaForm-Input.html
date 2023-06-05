@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form e input</title>
+</head>
+<body>
+    <form action=""> <!--Manera semántica de empezar a hacer un formulario -->
+        <label for="nombre"><!--Etiqueta-->
+            <span>Cuál es tu nombre?</span> <!--Es el texto a un lado del recuadro / formulario-->
+            <input type="text" id="nombre"> <!--el id del input debe ser el mismo del label-->
+        </label>
+        <label for="inicio-curso">
+            <span>Qué día ingresaste a los cursos?</span> 
+            <input type="date" id="inicio-curso"> 
+        </label>
+        <label for="horario">
+            <span>En qué horario estudias?</span>
+            <input type="time" id="horario"> 
+        </label>
+        <label for="contraseña">
+            <span>Ingrese la contraseña del usuario</span> 
+            <input type="text" id="contraseña" placeholder="contraseña"><!--El placeholder sirve para poner un texto "en gris" como ejemplo de lo que debe poner el usuario--> 
+        </label>
+    </form>
+</body>
+</html>
